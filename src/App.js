@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Resturant from './Component/Basics/Resturant'
+// import Test from './Test'
+import Head from './Component/Basics/Head'
+const App = () => {
+  // const arr=[{id:1,name:"harsh",age:21},{id:2,name:"rajeev",age:22},{id:3,name:"kinjal",age:23}];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Test arr={arr}/> */}
+      <Head/>
+      <Resturant/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
