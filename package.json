@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://happy-harsh.github.io/Restaurant_React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
